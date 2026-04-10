@@ -3,6 +3,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+st.set_page_config(page_title="Industrial Market Intelligence Dashboard", layout="wide")
+
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "market_opportunities.csv"
 
