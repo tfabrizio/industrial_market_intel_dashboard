@@ -8,10 +8,6 @@ st.set_page_config(page_title="Industrial Market Intelligence Dashboard", layout
 BASE_DIR = Path(__file__).resolve().parent
 CSV_PATH = BASE_DIR / "market_opportunities.csv"
 
-st.write("BASE_DIR:", BASE_DIR)
-st.write("CSV_PATH:", CSV_PATH)
-st.write("CSV exists:", CSV_PATH.exists())
-
 # -----------------------
 # LOAD DATA
 # -----------------------
