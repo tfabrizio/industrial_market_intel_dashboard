@@ -10,8 +10,6 @@ CSV_PATH = BASE_DIR / "market_opportunities.csv"
 
 df = pd.read_csv(CSV_PATH)
 
-st.set_page_config(page_title="Industrial Market Intelligence Dashboard", layout="wide")
-
 # -----------------------
 # LOAD DATA
 # -----------------------
