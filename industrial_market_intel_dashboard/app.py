@@ -12,12 +12,11 @@ st.write("BASE_DIR:", BASE_DIR)
 st.write("CSV_PATH:", CSV_PATH)
 st.write("CSV exists:", CSV_PATH.exists())
 
-df = pd.read_csv(CSV_PATH)
-
 # -----------------------
 # LOAD DATA
 # -----------------------
-df = pd.read_csv("market_opportunities.csv")
+
+df = pd.read_csv(CSV_PATH)
 
 # Clean numeric columns
 if "opportunity_score" in df.columns:
